@@ -1,0 +1,95 @@
+.footer{
+    background-color: #fbfbfb;
+    padding: 25px 0 0 0 ;
+    margin-top: 30px;
+    .footer_wrapper{
+       .footer_wrap{
+          .logo{
+              height: 70px;
+              width: auto;
+            img{
+                max-height: 100%;
+                max-width: 100%;
+            }
+          }
+          .hints{
+             font-size: 15px;
+             color: $black;
+             font-weight: 500;
+             line-height:25px;
+             padding-top: 30px;
+          }
+
+          h3{
+            font-size: 18px;
+            color: $text;
+            font-weight: 600;
+            line-height: 30px;
+         }
+
+         h4{
+            font-size: 16px;
+            color: $text;
+            font-weight: 400;
+            line-height: 24px;
+         }
+         h5{
+            font-size: 15px;
+            color:$text;
+            font-weight: 400;
+            line-height: 15px;
+         }
+         .social_icon{
+            padding-top: 12px;
+            h6{
+                font-size: 16px;
+                color:$black;
+                font-weight: 500; 
+                font-family: $font-1;
+            }
+             
+             ul{
+                li{
+                    display: inline-block;
+                    height: 34px;
+                    width: 34px;
+                    border: 1px solid $border-2;
+                    border-radius: 3px;
+                    text-align: center;
+                    margin-right: 10px;
+                    line-height: 34px;
+                    cursor: pointer;
+                    i{
+                        font-size: 22px;
+                     }
+                }
+             }
+         }
+       }
+    }
+    .copy_right{
+        background-color: #dfdede;
+        padding:15px 0;
+        margin-top: 25px;
+        .copyRight_wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .copyright_left{
+                font-size: 14px;
+                color: $black;
+                font-weight: 500;
+                font-family: $font-2;
+                span{
+                 font-family: 'SolaimanLipi', sans-serif;          
+                }
+            }
+            .copyright_right{
+                font-size: 14px;
+                color: $black;
+                font-weight: 500;
+                font-family: $font-2;
+            }
+        }
+    }
+}

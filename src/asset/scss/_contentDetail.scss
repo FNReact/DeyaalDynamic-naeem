@@ -1,0 +1,112 @@
+.content_detail_body{
+    padding: 12px;
+    width: 100%;
+    background-color: $white;
+    padding: 30px;
+    border-radius: 12px;
+    .content_detail{
+         .content_title{
+            font-size: 24px;
+            color: $black;
+            font-weight: 600;
+            line-height: 44px;
+         }
+         .content_bio{
+            display: flex;
+            align-items: center;
+            border-bottom: 1px dashed $border-2;
+            padding: 5px 0 10px 0;
+            .author_name{
+                font-size: 15px;
+                color: $red;
+                font-weight: 500;
+            }
+            .content_date{
+                font-size: 14px;
+                color: $text;
+                font-weight: 500; 
+                padding-left: 25px;
+            }
+         }
+         .content_image{
+            height: 480px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f3f3f3;
+            margin-top: 15px;
+            img{
+                max-height: 100%;
+                max-width: 100%;
+            }
+         }
+         .content_text{
+            padding-top: 12px;
+         }
+        .author{
+            display: flex;
+            width: 100%;
+            border-top: 1px dashed $border-2;
+            border-bottom: 1px dashed $border-2;
+            padding: 18px 0;
+            margin-top: 12px;
+         .author_img{
+            height: 80px;
+            width: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f3f3f3;
+            
+          img{
+              max-height: 100%;
+              max-width: 100%;
+          }
+        }
+        
+        .author_detail{
+            padding-left: 12px;
+            width: 94%;
+           .authorName{
+                font-size: 18px;
+                color: $black;
+                font-weight: 600;
+                line-height: 24px;
+        
+           }
+           .author_text{
+               font-size: 15px;
+               color: $text;
+               font-weight: 400;
+               line-height: 24px;
+           }
+        }
+         }   
+         .author_more_content{
+            padding-top: 12px;
+            h4{
+                font-size: 20px;
+                color: $text;
+                font-weight: 600; 
+                line-height: 30px;
+            }
+            ul{
+                li{
+                    padding-bottom: 10px;
+                    a{
+                        font-size: 16px;
+                        color: $text;
+                        font-weight: 400;
+                        &:hover{
+                            color: $black;
+                        }
+                    }
+                }
+            }
+         }         
+     }
+}
+
+
+
